@@ -1,29 +1,42 @@
 #block1 {
     float: left;
-}
-#block2 {
-    float: left;
-}
-#block3 {
-    float: left;
+    margin: 0 0 0 -1;
+    padding: 0 1em;
 }
 
-ul li {
+#block2 {
+    float: left;
+    padding: 0 1em;
+    margin: 1em 0 0 -1em;
+}
+
+#block3 {
+    float: left;
+    padding: 0 1em;
+    margin: 1em 0 0 -1em;
+}
+.border {
+    border: 2px solid lightgray;
+}
+
+ul {
     list-style: none;
 }
 
-.octodex ul {
- 
+li.octocat {
+    list-style: none;
+}
+ul.octodex {
+    
 }
 
 .octocat li {
-    width: 300px;
+    width: 120px;
 }
 
 .octocat img {
-    width: 300px;
-    height: 300px;
-    border: 2px solid lightgray;
+    width: 420px;
+    height: 420px;
 }
 
 .clearFloat {
@@ -33,10 +46,11 @@ ul li {
 }
 
 .image-footer {
-    width: 300px;
-    height: 40px;
+    width: 400px;
+    height: 50px;
     display: inline;
     position: relative;
+    text-align: center;
 }
 
 .image-number {
@@ -44,16 +58,21 @@ ul li {
 }
 
 .image-caption {
-    width: 300px;
-    float: left;
+    width: 420px;
+    height: 50px;
     display: inline;
-    position: relative;s
+    margin: 0 0 0 50;
+    padding: 0 0 10 0;
+    
+}
 
+ul.authors {
+    margin: -9 -270 0 0;
 }
 
 .authors img {
     width: 25px;
     height: 25px;
+    border-radius: 3px;
 }
 
-img {}
