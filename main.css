@@ -1,0 +1,40 @@
+#container {
+    
+}
+ul li {
+    list-style: none;
+}
+.octodex ul {
+   width: 800px;
+}
+.octocat li {
+    width: 30%;
+}
+.octocat img {
+    width: 430px;
+    height: 430px;
+    float: left;
+}
+.clearFloat {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.image-footer {
+    width: 430px;
+    height: 40px;
+}
+.image-number {
+    font-size: 12px;
+}
+.image-caption {
+    width: 430px;
+    float: left;
+}
+.authors img {
+    width: 25px;
+    height: 25px;
+}
+img {
+   
+}
