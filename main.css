@@ -17,6 +17,7 @@
 }
 .border {
     border: 2px solid lightgray;
+    margin: 0 0 15px 0;
 }
 
 ul {
@@ -41,8 +42,8 @@ ul.octodex {
 
 .clearFloat {
     clear: both;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .image-footer {
@@ -53,20 +54,28 @@ ul.octodex {
 }
 
 .image-number {
-    font-size: 12px;
+    font-size: 14px;
+    padding-left:;
+    margin-left: 10px;
+    color: lightgray;
+    font-weight: 900;
+}
+.hardRightNum {
+    margin-left:;
 }
 
 .image-caption {
     width: 420px;
     height: 50px;
     display: inline;
-    margin: 0 0 0 140;
-    padding: 0 0 10 0;
+    margin: 50px 0 0 140px;
+    padding: 0 0 10px 0;
     
 }
 
 ul.authors {
-    margin: -9 -270 0 0;
+    margin: -9px -270px 0 0;
+    border-bottom: 2px solid lightgray;
 }
 
 .authors img {
@@ -75,21 +84,21 @@ ul.authors {
     border-radius: 3px;
 }
 #authorPic1 {
-    margin: 0 0 0 0;
+    margin: -10px -77px 0 0;
     padding: 0 0 0 0;
 }
 .authorPic234 {
-    margin: 10px 0 0 2px;
+    margin: -10px 0 0 2px;
 }
 #authorPic2 {
     
 }
 #authorPic3 {}
 #authorPic4 {
-    margin-right: -10px;
+    margin-right: -15px;
 }
 #authorPic5 {
-    margin: 10 0 0 80px;
+    margin: -10px -5px 0 80px;
 }
 
 
