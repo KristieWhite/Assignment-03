@@ -36,8 +36,8 @@ ul.octodex {
 }
 
 .octocat img {
-    width: 420px;
-    height: 420px;
+    width: 400px;
+    /*height: 420px;*/
 }
 
 .clearFloat {
